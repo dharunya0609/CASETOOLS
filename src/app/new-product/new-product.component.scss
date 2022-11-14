@@ -1,0 +1,24 @@
+label{
+    font-size: 20px;
+}
+
+.card{
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    .card-body{
+        color:linear-gradient(to right, #24243e, #302b63, #0f0c29);
+        .btn{
+            background: linear-gradient(to right, #24243e, #302b63, #0f0c29)
+        }
+    }
+}
+body
+{
+    background-image: url("https://www.gorspa.org/wp-content/uploads/iStock-655597202-1-400x240.jpg");
+   
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
